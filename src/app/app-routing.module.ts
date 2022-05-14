@@ -5,7 +5,8 @@ const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabledBlocking'
+    enableTracing: false,
+    initialNavigation: 'enabled'
 })],
   exports: [RouterModule]
 })
